@@ -65,11 +65,10 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Background\moveOffset.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
-    <Compile Include="Assets\Scripts\Objetos\controleBarril.cs" />
     <Compile Include="Assets\Scripts\Objetos\controlePonte.cs" />
-    <Compile Include="Assets\Scripts\Player\Player.cs" />
-    <Compile Include="Assets\Scripts\Player\bunnyController.cs" />
+    <Compile Include="Assets\Scripts\Player\personagem.cs" />
     <Compile Include="Assets\Scripts\comandos.cs" />
+    <Compile Include="Assets\Scripts\idColetavel.cs" />
     <Reference Include="UnityEngine">
       <HintPath>D:/Unity/2019.4.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

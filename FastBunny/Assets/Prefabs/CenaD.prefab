@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 569703471}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: "Colet\xE1veis"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51,7 +51,7 @@ GameObject:
   m_Component:
   - component: {fileID: 419266486727959885}
   - component: {fileID: 3672345716985645133}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Flor2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -134,7 +134,8 @@ GameObject:
   - component: {fileID: 6756488844215089207}
   - component: {fileID: 7679877481342901967}
   - component: {fileID: 5886785306751675636}
-  m_Layer: 0
+  - component: {fileID: 60642886503727818}
+  m_Layer: 8
   m_Name: Plataforma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -217,7 +218,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0.017029285, y: 0.65036154}
   m_SpriteTilingProperty:
@@ -232,6 +233,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 7.9133863, y: 0.619277}
   m_EdgeRadius: 0
+--- !u!251 &60642886503727818
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3298591610912441528}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 135
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &4689104970302385306
 GameObject:
   m_ObjectHideFlags: 0
@@ -242,7 +262,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2888130683718493497}
   - component: {fileID: 1949049461551284151}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Flor1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -323,7 +343,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6666388502358055360}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Obstaculos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -360,7 +380,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3470453512604385272}
   - component: {fileID: 4949458835644564175}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Flor2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -445,7 +465,7 @@ GameObject:
   - component: {fileID: 1719865610138592530}
   - component: {fileID: 3183080796811653776}
   - component: {fileID: 1825074723399311273}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: CenaD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -594,7 +614,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7422960444488528793}
   - component: {fileID: 2472463258052064675}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Flor2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -676,7 +696,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1237278512975474675}
   - component: {fileID: 4068202113832117719}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Flor1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -815,6 +835,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cenoura
       objectReference: {fileID: 0}
+    - target: {fileID: 8776564225797449183, guid: b097cfabb5862d24d907aa45e59d0134,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b097cfabb5862d24d907aa45e59d0134, type: 3}
 --- !u!4 &7624078536510209807 stripped
@@ -890,6 +915,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cenoura (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8776564225797449183, guid: b097cfabb5862d24d907aa45e59d0134,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b097cfabb5862d24d907aa45e59d0134, type: 3}
 --- !u!4 &7879081885901255652 stripped
@@ -909,6 +939,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tronco
+      objectReference: {fileID: 0}
+    - target: {fileID: 2698934257985482364, guid: 8cc685dfc0755a046b9fc77433143e33,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5822475164473606795, guid: 8cc685dfc0755a046b9fc77433143e33,
         type: 3}
@@ -1040,6 +1075,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cenoura (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8776564225797449183, guid: b097cfabb5862d24d907aa45e59d0134,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b097cfabb5862d24d907aa45e59d0134, type: 3}
 --- !u!4 &6890877519272311471 stripped
@@ -1114,6 +1154,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: cenoura
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776564225797449183, guid: b097cfabb5862d24d907aa45e59d0134,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b097cfabb5862d24d907aa45e59d0134, type: 3}
@@ -1190,6 +1235,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cenoura (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8776564225797449183, guid: b097cfabb5862d24d907aa45e59d0134,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b097cfabb5862d24d907aa45e59d0134, type: 3}
 --- !u!4 &4619225551488769654 stripped
@@ -1209,6 +1259,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tronco
+      objectReference: {fileID: 0}
+    - target: {fileID: 2698934257985482364, guid: 8cc685dfc0755a046b9fc77433143e33,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5822475164473606795, guid: 8cc685dfc0755a046b9fc77433143e33,
         type: 3}
@@ -1285,6 +1340,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tronco
       objectReference: {fileID: 0}
+    - target: {fileID: 2698934257985482364, guid: 8cc685dfc0755a046b9fc77433143e33,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5822475164473606795, guid: 8cc685dfc0755a046b9fc77433143e33,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1359,6 +1419,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Espinho
+      objectReference: {fileID: 0}
+    - target: {fileID: 2298618037665730938, guid: d965822af2bf60242a8d6a6ef27a6f08,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5482400868156258410, guid: d965822af2bf60242a8d6a6ef27a6f08,
         type: 3}
@@ -1490,6 +1555,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cenoura (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8776564225797449183, guid: b097cfabb5862d24d907aa45e59d0134,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b097cfabb5862d24d907aa45e59d0134, type: 3}
 --- !u!4 &3168286478938460177 stripped
@@ -1564,6 +1634,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pedra
+      objectReference: {fileID: 0}
+    - target: {fileID: 3052177712861976426, guid: 1a747692f3a114d41a98cb81fe240dfb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a747692f3a114d41a98cb81fe240dfb, type: 3}
@@ -1640,6 +1715,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cenoura (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8776564225797449183, guid: b097cfabb5862d24d907aa45e59d0134,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b097cfabb5862d24d907aa45e59d0134, type: 3}
 --- !u!4 &2450480958006327899 stripped
@@ -1659,6 +1739,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Espinho
+      objectReference: {fileID: 0}
+    - target: {fileID: 2298618037665730938, guid: d965822af2bf60242a8d6a6ef27a6f08,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5482400868156258410, guid: d965822af2bf60242a8d6a6ef27a6f08,
         type: 3}
@@ -1790,6 +1875,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cenoura (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8776564225797449183, guid: b097cfabb5862d24d907aa45e59d0134,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b097cfabb5862d24d907aa45e59d0134, type: 3}
 --- !u!4 &1798143125713152685 stripped
@@ -1864,6 +1954,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: cenoura (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776564225797449183, guid: b097cfabb5862d24d907aa45e59d0134,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b097cfabb5862d24d907aa45e59d0134, type: 3}
@@ -1940,6 +2035,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cenoura (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8776564225797449183, guid: b097cfabb5862d24d907aa45e59d0134,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b097cfabb5862d24d907aa45e59d0134, type: 3}
 --- !u!4 &285194633069736294 stripped
@@ -2014,6 +2114,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: cenoura (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776564225797449183, guid: b097cfabb5862d24d907aa45e59d0134,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b097cfabb5862d24d907aa45e59d0134, type: 3}

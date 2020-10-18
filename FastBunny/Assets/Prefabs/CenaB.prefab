@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 569703471}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: "Colet\xE1veis"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49,7 +49,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7081634815922870203}
   - component: {fileID: 429408348839576536}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Flor2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132,7 +132,8 @@ GameObject:
   - component: {fileID: 6057789427445734486}
   - component: {fileID: 1445493406793661112}
   - component: {fileID: 8959000436683099990}
-  m_Layer: 0
+  - component: {fileID: 1607631252420624393}
+  m_Layer: 8
   m_Name: level_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -147,7 +148,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 939688250239370759}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.96, y: 3.23, z: 0}
+  m_LocalPosition: {x: 3.96, y: 3.11, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 260288600624926276}
@@ -217,9 +218,9 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0020155907, y: 0.6057334}
+  m_Offset: {x: 0.0020155907, y: 0.4971652}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -230,8 +231,27 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 6.3639545, y: 0.3732443}
+  m_Size: {x: 6.3639545, y: 0.59038067}
   m_EdgeRadius: 0
+--- !u!251 &1607631252420624393
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939688250239370759}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 135
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &1531312159159449046
 GameObject:
   m_ObjectHideFlags: 0
@@ -242,7 +262,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5263449376564118954}
   - component: {fileID: 8168327138926385825}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Flor1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -324,7 +344,7 @@ GameObject:
   m_Component:
   - component: {fileID: 419266486727959885}
   - component: {fileID: 3672345716985645133}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Flor2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -406,7 +426,7 @@ GameObject:
   m_Component:
   - component: {fileID: 260288600624926276}
   - component: {fileID: 4094474579423137656}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: level_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -489,7 +509,7 @@ GameObject:
   - component: {fileID: 4471814143014793831}
   - component: {fileID: 4393089450800340014}
   - component: {fileID: 3723347692106962215}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Pedra (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -596,7 +616,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2888130683718493497}
   - component: {fileID: 1949049461551284151}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Flor1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -678,7 +698,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7199777059942907689}
   - component: {fileID: 6339473837766400577}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Flor1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -760,7 +780,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3470453512604385272}
   - component: {fileID: 4949458835644564175}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Flor2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -841,7 +861,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9004659981880908919}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Obstaculos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -879,7 +899,7 @@ GameObject:
   - component: {fileID: 1719865610138592530}
   - component: {fileID: 3183080796811653776}
   - component: {fileID: 1825074723399311273}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: CenaB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1031,7 +1051,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7422960444488528793}
   - component: {fileID: 2472463258052064675}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Flor2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1113,7 +1133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3895331266914141576}
   - component: {fileID: 1307338193537630901}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Flor2 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1195,7 +1215,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1237278512975474675}
   - component: {fileID: 4068202113832117719}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Flor1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1278,6 +1298,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Espinho (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2298618037665730938, guid: d965822af2bf60242a8d6a6ef27a6f08,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5482400868156258410, guid: d965822af2bf60242a8d6a6ef27a6f08,
         type: 3}
@@ -1409,6 +1434,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cenoura (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8776564225797449183, guid: b097cfabb5862d24d907aa45e59d0134,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b097cfabb5862d24d907aa45e59d0134, type: 3}
 --- !u!4 &6102281123552670661 stripped
@@ -1428,6 +1458,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Espinho
+      objectReference: {fileID: 0}
+    - target: {fileID: 2298618037665730938, guid: d965822af2bf60242a8d6a6ef27a6f08,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5482400868156258410, guid: d965822af2bf60242a8d6a6ef27a6f08,
         type: 3}
@@ -1559,6 +1594,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cenoura (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8776564225797449183, guid: b097cfabb5862d24d907aa45e59d0134,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b097cfabb5862d24d907aa45e59d0134, type: 3}
 --- !u!4 &3200197332759907430 stripped
@@ -1633,6 +1673,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pedra
+      objectReference: {fileID: 0}
+    - target: {fileID: 3052177712861976426, guid: 1a747692f3a114d41a98cb81fe240dfb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a747692f3a114d41a98cb81fe240dfb, type: 3}
@@ -1709,6 +1754,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cenoura (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8776564225797449183, guid: b097cfabb5862d24d907aa45e59d0134,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b097cfabb5862d24d907aa45e59d0134, type: 3}
 --- !u!4 &617605284134935988 stripped
@@ -1783,6 +1833,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: cenoura (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776564225797449183, guid: b097cfabb5862d24d907aa45e59d0134,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b097cfabb5862d24d907aa45e59d0134, type: 3}
@@ -1859,6 +1914,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cenoura
       objectReference: {fileID: 0}
+    - target: {fileID: 8776564225797449183, guid: b097cfabb5862d24d907aa45e59d0134,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b097cfabb5862d24d907aa45e59d0134, type: 3}
 --- !u!4 &617605284669651409 stripped
@@ -1933,6 +1993,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: cenoura (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776564225797449183, guid: b097cfabb5862d24d907aa45e59d0134,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b097cfabb5862d24d907aa45e59d0134, type: 3}
@@ -2009,6 +2074,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cenoura (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8776564225797449183, guid: b097cfabb5862d24d907aa45e59d0134,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b097cfabb5862d24d907aa45e59d0134, type: 3}
 --- !u!4 &893542109442090912 stripped
@@ -2084,6 +2154,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cenoura (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8776564225797449183, guid: b097cfabb5862d24d907aa45e59d0134,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b097cfabb5862d24d907aa45e59d0134, type: 3}
 --- !u!4 &878162949050036344 stripped
@@ -2158,6 +2233,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: cenoura (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776564225797449183, guid: b097cfabb5862d24d907aa45e59d0134,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b097cfabb5862d24d907aa45e59d0134, type: 3}

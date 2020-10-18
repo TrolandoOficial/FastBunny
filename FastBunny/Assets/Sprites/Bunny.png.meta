@@ -4,43 +4,43 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -1088982491853983780
-    second: Bunny_0
+    second: Idle_1
   - first:
       213: -6920197560534879104
-    second: Bunny_1
+    second: Idle_2
   - first:
       213: 9208955658890630916
-    second: Bunny_2
+    second: Jump_1
   - first:
       213: 2383259016181187692
-    second: Bunny_3
+    second: Jump_2
   - first:
       213: 7856529959741343767
-    second: Bunny_4
+    second: Jump_3
   - first:
       213: 3353936075574255370
-    second: Bunny_5
+    second: Hit_0
   - first:
       213: -7706893394457466700
-    second: Bunny_6
+    second: Hit_1
   - first:
       213: -7973872656608569558
-    second: Bunny_7
+    second: Walk_0
   - first:
       213: -6416753566990477170
-    second: Bunny_8
+    second: Walk_1
   - first:
       213: 2263302951769430357
-    second: Bunny_9
+    second: Walk_2
   - first:
       213: -7479841815724961714
-    second: Bunny_10
+    second: Walk_3
   - first:
       213: -6525834913164861938
-    second: Bunny_11
+    second: Run_0
   - first:
       213: 5737964578668891598
-    second: Bunny_12
+    second: Run_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -138,7 +138,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bunny_0
+      name: Idle_1
       rect:
         serializedVersion: 2
         x: 0
@@ -159,7 +159,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bunny_1
+      name: Idle_2
       rect:
         serializedVersion: 2
         x: 286
@@ -180,7 +180,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bunny_2
+      name: Jump_1
       rect:
         serializedVersion: 2
         x: 572
@@ -201,7 +201,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bunny_3
+      name: Jump_2
       rect:
         serializedVersion: 2
         x: 858
@@ -222,7 +222,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bunny_4
+      name: Jump_3
       rect:
         serializedVersion: 2
         x: 1144
@@ -243,10 +243,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bunny_5
+      name: Hit_0
       rect:
         serializedVersion: 2
-        x: 1430
+        x: 1429
         y: 754
         width: 286
         height: 270
@@ -264,7 +264,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bunny_6
+      name: Hit_1
       rect:
         serializedVersion: 2
         x: 1716
@@ -285,7 +285,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bunny_7
+      name: Walk_0
       rect:
         serializedVersion: 2
         x: 0
@@ -306,11 +306,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bunny_8
+      name: Walk_1
       rect:
         serializedVersion: 2
         x: 286
-        y: 484
+        y: 485
         width: 286
         height: 270
       alignment: 7
@@ -327,7 +327,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bunny_9
+      name: Walk_2
       rect:
         serializedVersion: 2
         x: 572
@@ -348,7 +348,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bunny_10
+      name: Walk_3
       rect:
         serializedVersion: 2
         x: 858
@@ -369,7 +369,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bunny_11
+      name: Run_0
       rect:
         serializedVersion: 2
         x: 1144
@@ -390,11 +390,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bunny_12
+      name: Run_1
       rect:
         serializedVersion: 2
-        x: 1430
-        y: 484
+        x: 1434
+        y: 485
         width: 286
         height: 270
       alignment: 7
